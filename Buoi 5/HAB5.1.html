@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+        body{
+          font-size: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font-size: 15px;
+        }
+        .all1{
+          background-color: goldenrod;
+          height: 350px;
+          width: 250px;
+          margin: 40px;
+          padding: 10px 0 0 10px;
+        }
+        .menu{
+            position: relative;
+        } 
+        .all{
+          background-color:lightcoral;
+        }
+        .all1 li{
+          list-style-type: none;
+        }
+        .all1 li a{
+          text-decoration: none;
+        }
+        .menu li:hover{
+          background-color: lightseagreen;
+        }
+        .menucap2 li:hover{
+          background-color: lightpink;
+        }
+        
+       .menucap2{
+         
+      display: none;
+      position: absolute;
+      padding-top: 10px 0 0 10px;
+      left: 185px;
+      top: -9px; 
+      height: 350px;
+      width: 250px;
+      background-color: white;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 1); 
+      }    
+    
+
+      .menucap2 li{
+       background-color: white;
+       padding:8px 10px;
+      }
+      .menu-cap2 li a{
+       text-align: center;
+       margin: 0px;
+      }
+     .menu li:hover .menucap2{
+      display: block;}
+      
+      .menucap3{
+      position: absolute;
+      display: none;
+      padding-top: 10px 0 0 10px;
+      left: 185px;
+      top: 0px;
+      display: none; 
+      height: 350px;
+      min-width: 250px;
+      background-color: white;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+      }  
+      
+      .menucap2 li:hover .menucap3{
+        display: block;
+      }
+        
+ </style>
+</head>
+<body>
+  <div class="all">
+    <div class="all1">
+    <ul class="menu">
+       <li><a href="#">Hàng gia dụng và đời sống
+        <ul class="menucap2">
+            <li><a href="#">Bếp và phòng ăn</a>
+               <ul class="menucap3">
+                   <li><a href="#">Nồi & Chảo</a></li>
+                   <li><a href="#">Bình nước</a></li>
+                   <li><a href="#">Bình giữ nhiệt</a></li>
+                   <li><a href="#">Chứa đồ nhà bếp và phụ kiện</a></li>
+                </ul>
+            </li>
+          </li>
+            <li><a href="#">Sửa chữa nhà cửa</a>
+               <ul class="menucap3">
+                <li><a href="#">Thiết bi điện</a></li>
+                <li><a href="#">Đồ dùng làm vườn</a></li>
+                <li><a href="#">Đồ kim khí</a></li>
+                <li><a href="#">Bảo vệ nhà cửa</a></li>
+               </ul>
+            </li>
+            <li><a href="#"> Dụng cụ điện</a>
+              <ul class="menucap3">
+                <li><a href="#">Máy khoan</a></li>
+                <li><a href="#">Máy khoan cắt đa năng</a></li>
+                <li><a href="#">Dụng cụ cầm tay</a></li>
+                <li><a href="#">Máy khoan cắt bê tông</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dụng cụ cầm tay</a>
+             <ul class="menucap3">
+                <li><a href="#">Súng bắn keo</a></li>
+                <li><a href="#">Dao và dụng cụ đa năng</a></li>
+                <li><a href="#">Dụng cụ lau chùi</a></li>
+                <li><a href="#">Kềm</a></li>
+             </ul>
+            </li>
+      </ul>    
+    <li class="menu"><a href="#">Phụ kiện điện tử</a></li>
+    <li class="menu"><a href="#">Sức khỏe và làm đẹp</a></li></ul>
+        </div>
+          </div>
+        
+      
+</body>
+</html>
